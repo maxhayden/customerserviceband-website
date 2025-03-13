@@ -66,7 +66,9 @@ body {
 @media (max-width: 767px) {
     .bg-img {
         background-image: url("../images/bridge-3.jpg");
-        background-size: 1000px;
-        background-size: 100%;
+        background-size: 650px;
+    }
+    #band-statement{
+        font-size: 0.77rem;
     }
 }
