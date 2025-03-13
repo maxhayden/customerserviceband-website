@@ -4,23 +4,16 @@ from = "/home"
 to = "/"
 status = 301
 
-# Redirect with a 302
 [[redirects]]
-from = "/my-redirect"
+from = "/index.html"
 to = "/"
-status = 302
+status = 301
 
-# Show a custom 404 for this path
 [[redirects]]
-from = "/ecommerce"
-to = "/store-closed"
-status = 404
+from = "/contact.html"
+to = "/contact"
+status = 301
 
-# Rewrite a path
-[[redirects]]
-from = "/pass-through"
-to = "/index.html"
-status = 200
 
 [[redirects]]
 from = "/*"
