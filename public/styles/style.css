@@ -80,3 +80,7 @@ body {
     filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
 
 }
+
+.icons {
+    filter: invert(1);
+}
