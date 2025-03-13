@@ -68,7 +68,15 @@ body {
         background-image: url("../images/bridge-3.jpg");
         background-size: 600px;
     }
-    #band-statement{
+
+    #band-statement {
         font-size: 0.77rem;
     }
+}
+
+#logo-image {
+
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+
 }
