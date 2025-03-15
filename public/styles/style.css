@@ -87,12 +87,47 @@ body {
 }
 
 #logo-image {
-
     -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
     filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
-
 }
 
 .icons {
     filter: invert(1);
 }
+
+.fit-screen{
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.scroll-container {
+    position: fixed;
+    bottom: -400px;
+    left: 50%; 
+    transform: translateX(-50%);
+    width: 100%;
+    height: 400px; /* Adjust height as needed */
+    background: rgba(39, 39, 39, 0.9);
+    overflow-y: auto;
+    transition: bottom 0.5s ease-in-out;
+    color: white;
+    padding: 10px;
+    
+}
+
+.scroll-container.active {
+    bottom: 0; /* Slides up when active */
+}
+
+footer a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, .5) !important
+}
+
+#toggleScrollOff{
+    width: 40px; 
+    height: 40px;;
+}
+
