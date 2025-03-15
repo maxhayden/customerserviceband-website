@@ -49,7 +49,7 @@ body {
 }
 
 .bg-img {
-    background-image: url("../images/bridge-1.jpg");
+    background-image: url("../images/bridge-1.jpeg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -63,14 +63,14 @@ body {
 
 @media (max-width: 1024px) {
     .bg-img {
-        background-image: url("../images/bridge-1.jpg");
+        background-image: url("../images/bridge-1.jepg");
         background-size: 1000px;
     }
 }
 
 @media (max-width: 767px) {
     .bg-img {
-        background-image: url("../images/bridge-3.jpg");
+        background-image: url("../images/bridge-3.jepg");
         background-size: 600px;
     }
 
