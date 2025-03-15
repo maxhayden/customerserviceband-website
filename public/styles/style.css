@@ -56,6 +56,10 @@ body {
     background-size: 100%;
 }
 
+.mb-auto {
+    margin-bottom: 3em !important;
+}
+
 
 @media (max-width: 1024px) {
     .bg-img {
@@ -72,6 +76,13 @@ body {
 
     #band-statement {
         font-size: 0.77rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .bg-img {
+        background-image: url(../images/bridge-3.jpg);
+        background-size: cover;
     }
 }
 
