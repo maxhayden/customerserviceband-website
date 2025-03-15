@@ -63,14 +63,14 @@ body {
 
 @media (max-width: 1024px) {
     .bg-img {
-        background-image: url("../images/CS-bridge-1.jepg");
+        background-image: url("../images/CS-bridge-1.jpeg");
         background-size: 1000px;
     }
 }
 
 @media (max-width: 767px) {
     .bg-img {
-        background-image: url("../images/CS-bridge-3.jepg");
+        background-image: url("../images/CS-bridge-3.jpeg");
         background-size: 600px;
     }
 
@@ -81,7 +81,7 @@ body {
 
 @media (max-width: 1024px) {
     .bg-img {
-        background-image: url("../images/CS-bridge-3.jepg");
+        background-image: url("../images/CS-bridge-3.jpeg");
         background-size: cover;
     }
 }
