@@ -93,6 +93,14 @@ body {
 
 .icons {
     filter: invert(1);
+    width: 24px;
+    height: 24px;
+}
+
+.icons:hover{
+    width: 30px;
+    height: 30px;
+    transition:  0.2s;
 }
 
 .fit-screen{
